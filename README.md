@@ -1,1 +1,22 @@
-# convert-date-to-timestap-and-timestap-to-date
+# Convert timestap to normal date and normal date to timestap.
+---
+* Convert timestamp in normal data.
+
+```
+let dateInTimeStamp = 1534215300;
+
+let converterTimeStampToNormalDate = new Date(dateInTimeStamp * 1000);
+
+console.log(converterTimeStampToNormalDate);
+```
+
+---
+* Convert normal data to timestamp
+
+```
+let dateNormal = new Date();
+
+let converterNormalDateToTimeStamp = new Date(dateNormal).getTime() / 1000;
+
+console.log(converterNormalDateToTimeStamp);
+```
