@@ -1,4 +1,5 @@
-# Convert timestmap to normal date and normal date to timestmap.
+# Convert timestamp to normal date and normal date to timestamp.
+
 ---
 * Convert timestamp in normal data.
 
